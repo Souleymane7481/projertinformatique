@@ -77,7 +77,7 @@ public class ACcueiladminis {
 		JButton btnNewButton_2 = new JButton("DECONNEXION");
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Acceuil R= new Acceuil ();
+				Pageconnexion R= new Pageconnexion ();
 				R.frame.setVisible(true);
 				frame.dispose();
 			}

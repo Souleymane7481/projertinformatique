@@ -113,6 +113,13 @@ public class FACTURATIONDESPRESTATIONS {
 		frame.getContentPane().add(lblNewLabel);
 		
 		JButton btnNewButton_4 = new JButton("RETOUR");
+		btnNewButton_4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				ACCEUILCHEFMAINT R= new ACCEUILCHEFMAINT ();
+				R.frame.setVisible(true);
+				frame.dispose();	
+				}
+		});
 		btnNewButton_4.setFont(new Font("Times New Roman", Font.ITALIC, 12));
 		btnNewButton_4.setBounds(245, 400, 150, 23);
 		frame.getContentPane().add(btnNewButton_4);

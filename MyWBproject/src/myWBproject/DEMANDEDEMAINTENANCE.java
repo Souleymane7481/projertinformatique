@@ -6,6 +6,7 @@ import javax.swing.JFrame;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JButton;
@@ -94,6 +95,11 @@ public class DEMANDEDEMAINTENANCE {
 		});
 		
 		JButton btnNewButton_1 = new JButton("VALIDER");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(frame, "Maintenance crée avec succès !");
+			}
+		});
 		btnNewButton_1.setFont(new Font("Times New Roman", Font.ITALIC, 12));
 		GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
 		groupLayout.setHorizontalGroup(

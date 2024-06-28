@@ -13,7 +13,7 @@ import java.awt.event.ActionEvent;
 
 public class ACCEUILOPERA {
 
-	private JFrame frame;
+	JFrame frame;
 
 	/**
 	 * Launch the application.
@@ -87,7 +87,7 @@ public class ACCEUILOPERA {
 		JButton btnNewButton = new JButton("DECONNEXION");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Acceuil R= new Acceuil ();
+			Pageconnexion	 R= new Pageconnexion ();
 				R.frame.setVisible(true);
 				frame.dispose();
 			}

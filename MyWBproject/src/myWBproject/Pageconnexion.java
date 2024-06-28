@@ -11,7 +11,7 @@ import java.awt.Font;
 
 public class Pageconnexion {
 
-	private JFrame frame;
+	JFrame frame;
 
 	/**
 	 * Launch the application.
@@ -47,7 +47,7 @@ public class Pageconnexion {
 		JButton btnNewButton = new JButton("ADMINISTRATEUR");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Acceuil R = new Acceuil ();
+				ACcueiladminis R= new ACcueiladminis();
 				R.frame.setVisible(true);
 				frame.dispose();
 			}
@@ -72,7 +72,7 @@ public class Pageconnexion {
 		btnNewButton_2.setFont(new Font("Times New Roman", Font.ITALIC, 12));
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Acceuil R = new Acceuil ();
+				ACCEUILOPERA R= new ACCEUILOPERA ();
 				R.frame.setVisible(true);
 				frame.dispose();
 				

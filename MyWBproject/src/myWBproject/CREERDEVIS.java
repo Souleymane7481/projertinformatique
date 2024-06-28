@@ -4,6 +4,8 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
 import com.jgoodies.forms.factories.DefaultComponentFactory;
 import javax.swing.JTextField;
 import javax.swing.JButton;
@@ -103,6 +105,7 @@ public class CREERDEVIS {
 		btnNewButton.setFont(new Font("Times New Roman", Font.ITALIC, 12));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				 JOptionPane.showMessageDialog(frame, "Devis crée avec succès !");
 			}
 		});
 		btnNewButton.setBounds(367, 371, 89, 23);

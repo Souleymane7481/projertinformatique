@@ -67,7 +67,7 @@ public class LISTECLIENT {
 		scrollPane.setViewportView(table);
 		table.setModel(new DefaultTableModel(
 			new Object[][] {
-				{null, null, null, null, null},
+				{"YAWIND","1234","5678","karpala", "1010"},
 				{null, null, null, null, null},
 				{null, null, null, null, null},
 				{null, null, null, null, null},
@@ -100,7 +100,7 @@ public class LISTECLIENT {
 				{null, null, null, null, null},
 			},
 			new String[] {
-				"NOM", "IFU", " RCCM", "ADRTESSE", "CODE APE"
+				"NOM ENTREPRISE", "IFU", " RCCM", "ADRTESSE", "CODE APE"
 			}
 		));
 		

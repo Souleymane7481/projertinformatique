@@ -4,6 +4,7 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.Font;
@@ -112,6 +113,11 @@ public class CREERSURCOUT {
 		frame.getContentPane().add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("VALIDER");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(frame, "Surcout crée avec succès !");
+			}
+		});
 		btnNewButton_1.setBounds(371, 356, 89, 23);
 		frame.getContentPane().add(btnNewButton_1);
 	}
